@@ -31,16 +31,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?php echo base_url();?>index.php/inicio"><img src="<?php echo base_url();?>assets/images/logo.png" alt="logo"></a>
+                <a class="navbar-brand" href="<?php echo base_url();?>"><img src="<?php echo base_url();?>assets/images/logo.png" alt="logo"></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="<?php echo base_url();?>index.php/inicio">Inicio</a></li>
+                    <li class="active"><a href="<?php echo base_url();?>">Inicio</a></li>
                     <li><a href="#">Sobre nosotros</a></li>
                     <li><a href="#">Servicio</a></li>
                     <li><a href="#">Portafolio</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Páginas <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Career</a></li>
                             <li><a href="#">Blog Single</a></li>
