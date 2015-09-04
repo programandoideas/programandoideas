@@ -127,7 +127,7 @@
                                                 Nova - Corporate site template
                                             </h5>
                                             <div class="overlay">
-                                                <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="<?php echo base_url();?>assets/images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -140,7 +140,7 @@
                                                 Fornax - Apps site template
                                             </h5>
                                             <div class="overlay">
-                                                <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="<?php echo base_url();?>assets/images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -153,7 +153,7 @@
                                                 Flat Theme - Business Theme
                                             </h5>
                                             <div class="overlay">
-                                                <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="<?php echo base_url();?>assets/images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -170,7 +170,7 @@
                                                 Flat Theme - Business Theme
                                             </h5>
                                             <div class="overlay">
-                                                <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="<?php echo base_url();?>assets/images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -178,12 +178,12 @@
                                 <div class="col-xs-4">
                                     <div class="portfolio-item">
                                         <div class="item-inner">
-                                            <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
+                                            <img class="img-responsive" src="<?php echo base_url();?>assets/images/portfolio/recent/item1.png" alt="">
                                             <h5>
                                                 Nova - Corporate site template
                                             </h5>
                                             <div class="overlay">
-                                                <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="<?php echo base_url();?>assets/images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -196,7 +196,7 @@
                                                 Fornax - Apps site template
                                             </h5>
                                             <div class="overlay">
-                                                <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
+                                                <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="<?php echo base_url();?>assets/images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
                                             </div>
                                         </div>
                                     </div>
