@@ -11,8 +11,8 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="carousel-content centered">
-                                <h2 class="animation animated-item-1">Powerful and Responsive Web Design</h2>
-                                <p class="animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                <h2 class="boxed animation animated-item-1">Diseñamos y construimos tus ideas</h2><br/>
+                                <p class="boxed animation animated-item-2">Dale el plus que necesita tu idea.</p>
                             </div>
                         </div>
                     </div>
@@ -23,10 +23,10 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="carousel-content center centered">
-                                <h2 class="boxed animation animated-item-1">Clean, Crisp, Powerful and Responsive Web Design</h2>
+                                <h2 class="boxed animation animated-item-1">Sitios eficientes hechos a tu medida</h2>
                                 <p class="boxed animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                                <br>
-                                <a class="btn btn-md animation animated-item-3" href="#">Learn More</a>
+<!--                                <br>
+                                <a class="btn btn-md animation animated-item-3" href="#">Learn More</a>-->
                             </div>
                         </div>
                     </div>

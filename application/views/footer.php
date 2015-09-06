@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                &copy; 2015 <a href="<?php base_url();?>">Programando-Ideas</a> | Todos los derechos reservados
+                &copy; 2015 <a href="<?php base_url();?>">Programando-Ideas</a> | Todos los derechos reservados &REG;
             </div>
             <div class="col-sm-6">
                 <ul class="pull-right">
