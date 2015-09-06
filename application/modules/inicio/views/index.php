@@ -68,7 +68,7 @@
             <div class="col-md-4 col-sm-6">
                 <div class="media">
                     <div class="pull-left">
-                        <i class="icon-twitter icon-md"></i>
+                        <a href="https://twitter.com/program_ideas" target="blank_" class="icon-twitter icon-md"></a>
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">Twitter Marketing</h3>
@@ -79,7 +79,7 @@
             <div class="col-md-4 col-sm-6">
                 <div class="media">
                     <div class="pull-left">
-                        <i class="icon-facebook icon-md"></i>
+                        <a href="https://www.facebook.com/proramandoideas" target="blank_" class="icon-facebook icon-md"></a>
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">Facebook Marketing</h3>
