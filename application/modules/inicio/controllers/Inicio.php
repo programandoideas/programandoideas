@@ -9,4 +9,8 @@ class Inicio extends MY_Controller{
     public function index(){
         $this->Plantilla("index",array());
     }
+    
+    public function contacto(){
+        $this->Plantilla("contacto",array());
+    }
 }
