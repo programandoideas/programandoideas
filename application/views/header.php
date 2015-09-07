@@ -31,8 +31,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <!--<a class="navbar-brand" href="<?php echo base_url();?>"><img src="<?php echo base_url();?>assets/images/logo.png" alt="logo"></a>-->
-                <a class="navbar-brand" href="<?php echo base_url();?>">Programando-Ideas</a>
+                <a class="navbar-brand" href="<?php echo base_url();?>"><img src="<?php echo base_url();?>assets/images/logo.png" width="150px" alt="logo"></a>
+                <!--<a class="navbar-brand" href="<?php echo base_url();?>">Programando-Ideas</a>-->
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
