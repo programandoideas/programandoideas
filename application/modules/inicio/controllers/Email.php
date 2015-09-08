@@ -19,9 +19,6 @@ class Email extends MY_Controller{
         $email = $this->input->post("email");
         $mensaje = $this->input->post("mensaje");
         
-        
-        
-        
         $this->form_validation->set_rules("nombre","Nombre","trim|min_length[3]");
         $this->form_validation->set_rules("apellido","Apellido","trim|min_length[3]");
         $this->form_validation->set_rules("email","Email","trim|valid_email");
@@ -33,48 +30,34 @@ class Email extends MY_Controller{
         
         if($this->form_validation->run() == FALSE){
             $this->session->set_userdata('error', validation_errors());
-            redirect(base_url()."index.php/inicio/contacto");
+            $this->Plantilla("contacto",array());
         }else{
-            $this->load->library("email");
-            
-            //configuracion para gmail
             $config = array(
-                    'protocol' => 'smtp',
-                    'smtp_host' => 'blue45.dnsmisitio.net',
+                    'protocol'  => 'smtp',
+                    'smtp_host' => 'smtp.programandoideas.cl',
                     'smtp_port' => 465,
-                    'smtp_user' => 'program3',
+                    'smtp_user' => 'contacto@programandoideas.cl',
                     'smtp_pass' => 'pr0gr4m4nd01d345',
-                    'mailtype' => 'html',
-                    'charset' => 'utf-8',
-                    'newline' => "\r\n"
+                    'mailtype'  => 'html',
+                    'charset'   => 'utf-8',
+                    'wordwrap'  => TRUE,
+                    'newline'   => "\r\n"
             );    
- 
             
-            //$config['protocol'] = 'sendmail';
-            //$config['mailtype'] = 'html';
-            $this->email->initialize($config);
-            $this->email->from($email,$apellido.' '.$nombre);
-            //$this->email->to($email);
+            $this->load->library("email",$config);
+            
+            $this->email->from($email,$apellido." ".$nombre);
             $this->email->to('contacto@programandoideas.cl');
-            $this->email->subject('[Contacto]');
-            $this->email->message($nombre.", se ha puesto en contacto y ha dicho: ".$mensaje);
-            
-            
+            $this->email->subject('[CONTACTO]');
+            $this->email->message($nombre." ".$apellido.", se ha puesto en contacto y ha dicho: ".$mensaje);
+//            var_dump($this->email->print_debugger());
             if($this->email->send()){
-                echo "si";
-                //$this->session->set_userdata('mensaje', "Su mensaje ha sido enviado exitosamente. Pronto nos contactaremos con usted.");
+                $this->session->set_userdata('mensaje', "Su mensaje ha sido enviado exitosamente. Pronto nos contactaremos con usted.");
             }else{
-                echo "no";
-                //$this->session->set_userdata('mensaje', "No ha sido posible enviar el mensaje.");
-            }
+                $this->session->set_userdata('error', "No ha sido posible enviar el mensaje.");
+            } 
+            $this->Plantilla("contacto",array());
         }
-        
-        
-        
-                
-        
-        
-        
     }
     
     

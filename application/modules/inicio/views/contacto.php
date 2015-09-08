@@ -1,47 +1,87 @@
 <section id="title" class="emerald">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-7">
-                    <h1>¡Contactanos y cuentanos tus ideas!</h1>
-                </div>
-                <div class="col-sm-5">
-                    <ul class="breadcrumb pull-right">
-                        <li><a href="<?php echo base_url();?>">Inicio</a></li>
-                        <li class="active">Contacto</li>
-                    </ul>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7">
+                <h1>¡Contactanos y cuentanos tus ideas!</h1>
+            </div>
+            <div class="col-sm-5">
+                <ul class="breadcrumb pull-right">
+                    <li><a href="<?php echo base_url(); ?>">Inicio</a></li>
+                    <li class="active">Contacto</li>
+                </ul>
             </div>
         </div>
-    </section><!--/#title-->
-    
+    </div>
+</section><!--/#title-->
 
-    <section id="contact-page" class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h4>Formulario de contacto</h4>
-                <div class="status alert alert-success" style="display: none"></div>
-                <form id="main-contact-form"  name="contact-form" method="post" action="<?php echo base_url();?>index.php/inicio/email/Envio_email" role="form">
-                    <div class="row">
-                        <div class="col-sm-5">
-                            <div class="form-group">
-                                <input type="text" name="nombre"  class="form-control" required="required" placeholder="Nombre">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" name="apellido" class="form-control" required="required" placeholder="Apellido">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" name="email" class="form-control" required="required" placeholder="Email">
-                            </div>
-                            <div class="form-group">
-                                <input type="submit" value="Enviar" class="btn btn-primary btn-lg"/>
-                            </div>
+
+<section id="contact-page" class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h4>Formulario de contacto</h4>
+            <div class="status alert alert-success" style="display: none"></div>
+            <form id="main-contact-form"  name="contact-form" method="post" action="<?php echo base_url(); ?>index.php/inicio/email/Envio_email" role="form">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="form-group">
+                            <input type="text" name="nombre"  class="form-control" required="required" placeholder="Nombre">
                         </div>
-                        <div class="col-sm-7">
-                            <textarea name="mensaje" id="message" required="required" class="form-control" rows="8" placeholder="Mensaje"></textarea>
+                        <div class="form-group">
+                            <input type="text" name="apellido" class="form-control" required="required" placeholder="Apellido">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="email" class="form-control" required="required" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Enviar" class="btn btn-primary btn-lg"/>
                         </div>
                     </div>
-                </form>
-            </div>
-            <?php $this->session->unset_userdata('error')?>
+                    <div class="col-sm-7">
+                        <textarea name="mensaje" id="message" required="required" class="form-control" rows="8" placeholder="Mensaje"></textarea>
+                    </div>
+                </div>
+            </form>
         </div>
-    </section><!--/#contact-page-->
+    </div>
+</section><!--/#contact-page-->
+<section id="contact-page" class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <!--** MENSAJE **-->
+            <?php
+            $mensaje = "";
+            if ($this->session->userdata('mensaje')) {
+                $id_class = "mensaje";
+                $clase = "alert-info";
+                $mensaje = $this->session->userdata('mensaje');
+            } elseif ($this->session->userdata('error')) {
+                $id_class = "error";
+                $clase = "alert-danger";
+                $mensaje = $this->session->userdata('error');
+            }
+            if ($mensaje != "") {
+                ?>
+                <div id="<?php echo $id_class; ?>" class="alert <?php echo $clase ?> alert-dismissable">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                    <?php echo $mensaje ?>
+                </div>
+            <?php } ?>
+            <!--** FIN MENSAJES **-->
+            <?php $this->session->unset_userdata('mensaje', 'error'); ?>
+        </div>
+    </div>
+</section>
+<script>
+    function UnsetMensaje() {
+        <?php $this->session->unset_userdata('mensaje', 'error') ?>
+    }
+    setTimeout("UnsetMensaje()", 100);
+    
+    $(document).ready(function() {
+        if ($("div#mensaje")) {
+            setTimeout(function() {
+                $("div#mensaje").hide("slow");
+            }, 4000);
+        }
+    });
+</script>

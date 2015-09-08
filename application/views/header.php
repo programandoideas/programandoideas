@@ -16,10 +16,12 @@
     <script src="<?php echo base_url();?>assets/js/respond.min.js"></script>
     <![endif]-->       
     <link rel="shortcut icon" href="<?php echo base_url();?>assets/images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo base_url();?>assets/images/ico/logo.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo base_url();?>assets/images/ico/alogo.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo base_url();?>assets/images/ico/logo.png">
     <link rel="apple-touch-icon-precomposed" href="<?php echo base_url();?>assets/images/ico/logo.png">
+    
+    <script src="<?php echo base_url();?>assets/js/jquery.js"></script>
+    <script src="<?php echo base_url();?>assets/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url();?>assets/js/jquery.prettyPhoto.js"></script>
+    <script src="<?php echo base_url();?>assets/js/main.js"></script>
 </head><!--/head-->
 <body>
     <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner">
@@ -36,7 +38,7 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="<?php echo base_url();?>">Inicio</a></li>
+                    <li><a href="<?php echo base_url();?>">Inicio</a></li>
                     <li><a href="#">Sobre nosotros</a></li>
                     <li><a href="#">Servicio</a></li>
                     <li><a href="#">Portafolio</a></li>
