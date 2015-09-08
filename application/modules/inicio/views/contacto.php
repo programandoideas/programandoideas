@@ -65,5 +65,5 @@
                 $("div#mensaje").hide("slow");
             });
         }
-    }).4000;
+    }),4000;
 </script>
