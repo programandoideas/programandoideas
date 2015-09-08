@@ -20,6 +20,8 @@ class Email extends MY_Controller{
         $mensaje = $this->input->post("mensaje");
         
         
+        
+        
         $this->form_validation->set_rules("nombre","Nombre","trim|min_length[3]");
         $this->form_validation->set_rules("apellido","Apellido","trim|min_length[3]");
         $this->form_validation->set_rules("email","Email","trim|valid_email");
@@ -33,13 +35,29 @@ class Email extends MY_Controller{
             $this->session->set_userdata('error', validation_errors());
             redirect(base_url()."index.php/inicio/contacto");
         }else{
-            $config['protocol'] = 'sendmail';
-            $config['mailtype'] = 'html';
+            $this->load->library("email");
+            
+            //configuracion para gmail
+            $config = array(
+                    'protocol' => 'smtp',
+                    'smtp_host' => 'blue45.dnsmisitio.net',
+                    'smtp_port' => 465,
+                    'smtp_user' => 'program3',
+                    'smtp_pass' => 'pr0gr4m4nd01d345',
+                    'mailtype' => 'html',
+                    'charset' => 'utf-8',
+                    'newline' => "\r\n"
+            );    
+ 
+            
+            //$config['protocol'] = 'sendmail';
+            //$config['mailtype'] = 'html';
             $this->email->initialize($config);
-            $this->email->from('contacto@programandoideas.cl');
-            $this->email->to($email);
-            $this->email->subject('Contacto desde programandoideas.cl');
-            $this->email->message($nombre.", se ha puesto en contacto contigo y ha dicho: ".$mensaje);
+            $this->email->from($email,$apellido.' '.$nombre);
+            //$this->email->to($email);
+            $this->email->to('contacto@programandoideas.cl');
+            $this->email->subject('[Contacto]');
+            $this->email->message($nombre.", se ha puesto en contacto y ha dicho: ".$mensaje);
             
             
             if($this->email->send()){
