@@ -60,10 +60,10 @@
 <script>
     
     $(document).ready(function() {
-        if ($("div#mensaje")) {
+        if ($("#mensaje")) {
             setTimeout(function() {
-                $("div#mensaje").hide("slow");
-            });
+                $("#mensaje").hide(1500);
+            },3000);
         }
-    }),4000;
+    });
 </script>
