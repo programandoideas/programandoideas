@@ -45,11 +45,11 @@ class Email extends MY_Controller{
             );    
             
             $this->load->library("email",$config);
-            
             $this->email->from($email,$apellido." ".$nombre);
             $this->email->to('contacto@programandoideas.cl');
             $this->email->subject('[CONTACTO]');
-            $this->email->message($nombre." ".$apellido.", se ha puesto en contacto y ha dicho: ".$mensaje);
+            $this->email->message($mensaje);
+//            $this->email->message($apellido." ".$nombre.", se ha puesto en contacto y ha dicho: ".$mensaje);
 //            var_dump($this->email->print_debugger());
             if($this->email->send()){
                 $this->session->set_userdata('mensaje', "Su mensaje ha sido enviado exitosamente. Pronto nos contactaremos con usted.");
