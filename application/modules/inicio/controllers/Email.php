@@ -33,6 +33,7 @@ class Email extends MY_Controller{
             $men = validation_errors();
             $data['clase']="alert-danger";
             $data['mensaje'] = $men;
+            $data['id'] = "mensaje1";
             $this->Plantilla("contacto",$data);
             
         }else{
