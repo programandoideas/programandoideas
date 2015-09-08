@@ -63,7 +63,7 @@
         if ($("#mensaje")) {
             setTimeout(function() {
                 $("#mensaje").hide(1500);
-            },3000);
+            },4000);
         }
     });
 </script>
