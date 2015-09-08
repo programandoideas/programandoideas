@@ -54,7 +54,7 @@
                         </ul>
                     </li>
                     <li><a href="#">Blog</a></li> 
-                    <li><a href="<?php echo base_url();?>index.php/inicio/Inicio/contacto">Contacto</a></li>
+                    <li><a href="<?php echo base_url();?>index.php/inicio/email">Contacto</a></li>
                 </ul>
             </div>
         </div>
