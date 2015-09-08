@@ -13,8 +13,20 @@
         </div>
     </div>
 </section><!--/#title-->
+<br/>
+<!--** MENSAJE **-->
+<div class="col-md-offset-1 col-lg-10">
+    <?php if(!empty($mensaje)){ ?>
 
+        <div id="<?php echo $id?>" class="alert <?php echo $clase ?> alert-dismissable">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+            <?php echo $mensaje ?>
+        </div>
 
+    <?php } ?>
+            <!--** FIN MENSAJES **-->
+</div>
+<br/>
 <section id="contact-page" class="container">
     <div class="row">
         <div class="col-sm-12">
@@ -44,44 +56,14 @@
         </div>
     </div>
 </section><!--/#contact-page-->
-<section id="contact-page" class="container">
-    <div class="row">
-        <div class="col-sm-12">
-            <!--** MENSAJE **-->
-            <?php
-            $mensaje = "";
-            if ($this->session->userdata('mensaje')) {
-                $id_class = "mensaje";
-                $clase = "alert-info";
-                $mensaje = $this->session->userdata('mensaje');
-            } elseif ($this->session->userdata('error')) {
-                $id_class = "error";
-                $clase = "alert-danger";
-                $mensaje = $this->session->userdata('error');
-            }
-            if ($mensaje != "") {
-                ?>
-                <div id="<?php echo $id_class; ?>" class="alert <?php echo $clase ?> alert-dismissable">
-                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-                    <?php echo $mensaje ?>
-                </div>
-            <?php } ?>
-            <!--** FIN MENSAJES **-->
-            <?php $this->session->unset_userdata('mensaje', 'error'); ?>
-        </div>
-    </div>
-</section>
+
 <script>
-    function UnsetMensaje() {
-        <?php $this->session->unset_userdata('mensaje', 'error') ?>
-    }
-    setTimeout("UnsetMensaje()", 100);
     
     $(document).ready(function() {
         if ($("div#mensaje")) {
             setTimeout(function() {
                 $("div#mensaje").hide("slow");
-            }, 4000);
+            });
         }
-    });
+    }).4000;
 </script>

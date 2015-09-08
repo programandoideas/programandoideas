@@ -29,8 +29,12 @@ class Email extends MY_Controller{
         $this->form_validation->set_message('valid_email',"Debe ingresar un email válido.");
         
         if($this->form_validation->run() == FALSE){
-            $this->session->set_userdata('error', validation_errors());
-            $this->Plantilla("contacto",array());
+            
+            $men = validation_errors();
+            $data['clase']="alert-danger";
+            $data['mensaje'] = $men;
+            $this->Plantilla("contacto",$data);
+            
         }else{
             $config = array(
                     'protocol'  => 'smtp',
@@ -52,11 +56,19 @@ class Email extends MY_Controller{
 //            $this->email->message($apellido." ".$nombre.", se ha puesto en contacto y ha dicho: ".$mensaje);
 //            var_dump($this->email->print_debugger());
             if($this->email->send()){
-                $this->session->set_userdata('mensaje', "Su mensaje ha sido enviado exitosamente. Pronto nos contactaremos con usted.");
+                
+                $men =  "Su mensaje ha sido enviado exitosamente. Pronto nos contactaremos con usted. ¡GRACIAS POR VISITARNOS!";
+                $data['clase']="alert-info";
+                $data['mensaje'] = $men;
+                $data['id'] = "mensaje";
             }else{
-                $this->session->set_userdata('error', "No ha sido posible enviar el mensaje.");
+                
+                $men =  "No ha sido posible enviar el mensaje. Puede enviarnos un correo a contacto@programandoideas.cl";
+                $data['clase']="alert-danger";
+                $data['mensaje'] = $men;
+                $data['id'] = "mensaje1";
             } 
-            $this->Plantilla("contacto",array());
+            $this->Plantilla("contacto",$data);
         }
     }
     
