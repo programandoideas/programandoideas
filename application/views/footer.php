@@ -8,7 +8,7 @@
                 <ul class="pull-right">
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">Sobre nosotros</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="<?php echo base_url();?>index.php/inicio/email">Contacto</a></li>
                     <li><a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a></li><!--#gototop-->
                 </ul>
             </div>
