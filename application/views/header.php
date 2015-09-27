@@ -41,8 +41,11 @@
                     <li><a href="<?php echo base_url();?>">Inicio</a></li>
                     <li><a href="#">Sobre nosotros</a></li>
                     <li><a href="#">Servicio</a></li>
-                    <li><a href="#">Portafolio</a></li>
-                    <li class="dropdown">
+                    
+                    <!--POR DEFINIR-->
+                    
+                    <!--<li><a href="#">Portafolio</a></li>-->
+<!--                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Páginas <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Career</a></li>
@@ -55,7 +58,7 @@
                             <li><a href="#">Terms of Use</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Blog</a></li> 
+                    <li><a href="#">Blog</a></li> -->
                     <li><a href="<?php echo base_url();?>index.php/inicio/email">Contacto</a></li>
                 </ul>
             </div>
