@@ -13,4 +13,8 @@ class Inicio extends MY_Controller{
     public function contacto(){
         $this->Plantilla("contacto",array());
     }
+    
+    public function nosotros(){
+        $this->Plantilla("nosotros",array());
+    }
 }

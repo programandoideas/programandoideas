@@ -4,7 +4,7 @@ class MY_Controller extends MX_Controller{
     
     public function Plantilla($view, $data = array()){
         $this->load->view("header");
-        $this->load->view( $view, $data );
+        $this->load->view($view,$data);
         $this->load->view("footer");
     }
 }
