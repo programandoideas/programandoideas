@@ -86,7 +86,7 @@
 
         <div class="col-md-3 col-xs-6">
             <div class="center">
-                <p><img class="img-responsive img-thumbnail img-circle" src="<?php echo base_url()?>assets/images/equipo/team-member.jpg" alt="" width="170px"></p>
+                <p><img class="img-responsive img-thumbnail img-circle" src="<?php echo base_url()?>assets/images/equipo/h_vega.jpg" alt="" width="170px"></p>
                 <h5>Hugo Vega<small class="designation muted">Senior Vice President</small></h5>
                 <p>Ingeniero en informática, Contador y Consultor SAP</p>
                 <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
