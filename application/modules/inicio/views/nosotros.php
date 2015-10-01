@@ -19,7 +19,13 @@
     <div class="row">
         <div class="col-sm-6">
             <h2>Quienes Somos</h2>
-            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+            <p>Programando ideas es una empresa fundada en el año 2015 dedicada al desarrollo de aplicaciones web y todo tipo de asesorias informaticas. 
+                Nuestro proposito es ser una nueva alternativa para soluciones informáticas. Nuestra misión es ser una empresa reconocida, todo esto con 
+                el apoyo y vasta experiencia de nuestro equipo humano. Creada por 4 jovenes motivados y apasionados por hacer realidad tus ideas. 
+                Nosotros te ayudamos a darle el plus que necesita tu negocio dandolo a conocer en este inmenso mundo del Internet.
+                 
+                
+            </p>
         </div><!--/.col-sm-6-->
         <div class="col-sm-6">
             <h2>Nuestras Habilidades</h2>
@@ -65,7 +71,7 @@
 
     <div class="gap"></div>
     <h1 class="center">Conoce al Equipo</h1>
-    <p class="lead center">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+    <p class="lead center"></p>
     <div class="gap"></div>
 
     <div id="meet-the-team" class="row">
@@ -73,7 +79,7 @@
             <div class="center">
                 <p><img class="img-responsive img-thumbnail img-circle" src="<?php echo base_url()?>assets/images/equipo/e_catalan.jpg" alt="" width="170px"></p>
                 <h5>Elias Catalán<small class="designation muted">Senior Vice President</small></h5>
-                <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
+                <p>Ingeniero en informática</p>
                 <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
             </div>
         </div>
@@ -82,7 +88,7 @@
             <div class="center">
                 <p><img class="img-responsive img-thumbnail img-circle" src="<?php echo base_url()?>assets/images/equipo/team-member.jpg" alt="" width="170px"></p>
                 <h5>Hugo Vega<small class="designation muted">Senior Vice President</small></h5>
-                <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
+                <p>Ingeniero en informática, Contador y Consultor SAP</p>
                 <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
             </div>
         </div>        
@@ -90,7 +96,7 @@
             <div class="center">
                 <p><img class="img-responsive img-thumbnail img-circle" src="<?php echo base_url()?>assets/images/equipo/i_olivares.jpg" alt="" width="170px"></p>
                 <h5>Israel Olivares<small class="designation muted">Senior Vice President</small></h5>
-                <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
+                <p>Ingeniero en informática</p>
                 <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
             </div>
         </div>        
@@ -98,7 +104,7 @@
             <div class="center">
                 <p><img class="img-responsive img-thumbnail img-circle" src="<?php echo base_url()?>assets/images/equipo/p_olavarria.jpg" alt="" width="170px"></p>
                 <h5>Pablo Olavarria<small class="designation muted">Senior Vice President</small></h5>
-                <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
+                <p>Ingeniero en informática</p>
                 <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
             </div>
         </div>
