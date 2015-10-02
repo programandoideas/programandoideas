@@ -65,14 +65,14 @@
 <section id="services" class="emerald">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 col-sm-6">
+            <div class="col-md-offset-2 col-md-4 col-sm-6">
                 <div class="media">
                     <div class="pull-left">
                         <a href="https://twitter.com/program_ideas" target="blank_" class="icon-twitter icon-md"></a>
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">Twitter Marketing</h3>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                        <p>Siguenos en Twitter, contáctanos o enterate de los ultimos acontecimientos.</p>
                     </div>
                 </div>
             </div><!--/.col-md-4-->
@@ -83,18 +83,7 @@
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">Facebook Marketing</h3>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
-                    </div>
-                </div>
-            </div><!--/.col-md-4-->
-            <div class="col-md-4 col-sm-6">
-                <div class="media">
-                    <div class="pull-left">
-                        <i class="icon-google-plus icon-md"></i>
-                    </div>
-                    <div class="media-body">
-                        <h3 class="media-heading">Google Plus Marketing</h3>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                        <p>Dale me gusta a nuestra pagina en facebook</p>
                     </div>
                 </div>
             </div><!--/.col-md-4-->
@@ -102,7 +91,9 @@
     </div>
 </section><!--/#services-->
 
-<section id="recent-works">
+<!--=====TRABAJOS RECIENTES======-->
+
+<!--<section id="recent-works">
     <div class="container">
         <div class="row">
             <div class="col-md-3">
@@ -158,8 +149,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div><!--/.row-->
-                        </div><!--/.item-->
+                            </div>/.row
+                        </div>/.item
                         <div class="item">
                             <div class="row">
                                 <div class="col-xs-4">
@@ -202,15 +193,20 @@
                                     </div>
                                 </div>
                             </div>
-                        </div><!--/.item-->
+                        </div>/.item
                     </div>
                 </div>
             </div>
-        </div><!--/.row-->
+        </div>/.row
     </div>
-</section><!--/#recent-works-->
+</section>/#recent-works-->
 
-<section id="testimonial" class="alizarin">
+
+<!--=====FIN TRABAJOS RECIENTES========-->
+
+<!--=========LO QUE DICEN NUESTROS CLIENTES=======-->
+
+<!--<section id="testimonial" class="alizarin">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -244,5 +240,7 @@
             </div>
         </div>
     </div>
-</section><!--/#testimonial-->
+</section>/#testimonial-->
+
+<!--======FIN LO QUE DICEN NUESTROS CLIENTES=====-->
 
