@@ -1,7 +1,7 @@
 <section id="bottom" class="wet-asphalt">
     <div class="container">
         <div class="row">
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-5 col-sm-6">
                 <h4>Sobre Nosotros</h4>
                 <p> Programando ideas es una empresa fundada en el año 2015 dedicada al desarrollo de aplicaciones web y todo 
                     tipo de asesorias informaticas. 
@@ -12,20 +12,20 @@
                 <h4>Compañia</h4>
                 <div>
                     <ul class="arrow">
-                        <li><a href="#">Company Overview</a></li>
-                        <li><a href="#">Meet The Team</a></li>
-                        <li><a href="#">Our Awesome Partners</a></li>
-                        <li><a href="#">Our Services</a></li>
-                        <li><a href="#">Frequently Asked Questions</a></li>
-                        <li><a href="#">Conatct Us</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Use</a></li>
-                        <li><a href="#">Copyright</a></li>
+                        <li><a href="#">Descripción de la Compañia</a></li>
+                        <li><a href="#">Conoce al equipo</a></li>
+                        <!--li><a href="#">Our Awesome Partners</a></li-->
+                        <li><a href="#">Nuestros Servicios</a></li>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Contactanos</a></li>
+                        <!--li><a href="#">Privacy Policy</a></li-->
+                        <!--li><a href="#">Terms of Use</a></li-->
+                        <!--li><a href="#">Copyright</a></li-->
                     </ul>
                 </div>
             </div><!--/.col-md-3-->
 
-            <div class="col-md-3 col-sm-6">
+            <!--div class="col-md-3 col-sm-6">
                 <h4>Latest Blog</h4>
                 <div>
                     <div class="media">
@@ -56,10 +56,10 @@
                         </div>
                     </div>
                 </div>  
-            </div><!--/.col-md-3-->
+            </div--><!--/.col-md-3-->
 
-            <div class="col-md-3 col-sm-6">
-                <h4>Address</h4>
+            <div class="col-md-4 col-sm-6">
+                <h4>Dirección</h4>
                 <address>
                     <strong>Twitter, Inc.</strong><br>
                     795 Folsom Ave, Suite 600<br>
