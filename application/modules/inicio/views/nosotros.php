@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-sm-6">
                 <h1>Sobre Nosotros</h1>
-                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+                <!--p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p-->
             </div>
             <div class="col-sm-6">
                 <ul class="breadcrumb pull-right">
@@ -23,8 +23,6 @@
                 Nuestro proposito es ser una nueva alternativa para soluciones informáticas. Nuestra misión es ser una empresa reconocida, todo esto con 
                 el apoyo y vasta experiencia de nuestro equipo humano. Creada por 4 jovenes motivados y apasionados por hacer realidad tus ideas. 
                 Nosotros te ayudamos a darle el plus que necesita tu negocio dandolo a conocer en este inmenso mundo del Internet.
-                 
-                
             </p>
         </div><!--/.col-sm-6-->
         <div class="col-sm-6">

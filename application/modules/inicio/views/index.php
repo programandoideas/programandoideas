@@ -10,9 +10,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12">
-                            <div class="carousel-content centered">
+                            <div class="carousel-content center centered">
                                 <h2 class="boxed animation animated-item-1">Diseñamos y construimos tus ideas</h2><br/>
-                                <p class="boxed animation animated-item-2">Dale el plus que necesita tu idea.</p>
+                                <!--p class="boxed animation animated-item-2">Dale el plus que necesita tu idea.</p-->
                             </div>
                         </div>
                     </div>
@@ -24,7 +24,7 @@
                         <div class="col-sm-12">
                             <div class="carousel-content center centered">
                                 <h2 class="boxed animation animated-item-1">Sitios eficientes hechos a tu medida</h2>
-                                <p class="boxed animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                                <!--p class="boxed animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p-->
 <!--                                <br>
                                 <a class="btn btn-md animation animated-item-3" href="#">Learn More</a>-->
                             </div>
@@ -35,11 +35,11 @@
             <div class="item" style="background-image: url(<?php echo base_url();?>assets/images/slider/bg3.jpg)">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-6">
-                            <div class="carousel-content centered">
-                                <h2 class="animation animated-item-1">Powerful and Responsive Web Design Theme</h2>
-                                <p class="animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames</p>
-                                <a class="btn btn-md animation animated-item-3" href="#">Learn More</a>
+                        <div class="col-sm-12">
+                            <div class="carousel-content center centered">
+                                <h2 class="boxed animation animated-item-1">Automatiza todas tus planillas por un sistema</h2>
+                                <!--p class="animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames</p-->
+                                <!--a class="btn btn-md animation animated-item-3" href="#">Learn More</a-->
                             </div>
                         </div>
 <!--                        <div class="col-sm-6 hidden-xs animation animated-item-4">

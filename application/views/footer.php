@@ -2,13 +2,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 col-sm-6">
-                <h4>About Us</h4>
-                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-                <p>Pellentesque habitant morbi tristique senectus.</p>
+                <h4>Sobre Nosotros</h4>
+                <p> Programando ideas es una empresa fundada en el año 2015 dedicada al desarrollo de aplicaciones web y todo 
+                    tipo de asesorias informaticas. 
+                </p>
             </div><!--/.col-md-3-->
 
             <div class="col-md-3 col-sm-6">
-                <h4>Company</h4>
+                <h4>Compañia</h4>
                 <div>
                     <ul class="arrow">
                         <li><a href="#">Company Overview</a></li>
@@ -88,7 +89,7 @@
             <div class="col-sm-6">
                 <ul class="pull-right">
                     <li><a href="<?php echo base_url(); ?>">Inicio</a></li>
-                    <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="<?php echo base_url();?>index.php/inicio/Inicio/nosotros">Sobre nosotros</a></li>
                     <li><a href="<?php echo base_url(); ?>index.php/inicio/email">Contacto</a></li>
                     <li><a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a></li><!--#gototop-->
                 </ul>
