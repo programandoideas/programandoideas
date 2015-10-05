@@ -17,4 +17,8 @@ class Inicio extends MY_Controller{
     public function nosotros(){
         $this->Plantilla("nosotros",array());
     }
+    
+    public function servicio(){
+        $this->Plantilla("servicio",array());
+    }
 }
