@@ -28,7 +28,7 @@
             <div class="col-md-4 col-sm-6">
                 <div class="media">
                     <div class="pull-left">
-                        <i><img class="icon-md media" src="<?php echo base_url()?>assets/images/servicio/hosting.jpg"/></i>
+                        <img class="icon" src="<?php echo base_url()?>assets/images/servicio/hosting.png"/>
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">Windows Development</h3>
