@@ -37,7 +37,7 @@
                     <div class="row">
                         <div class="col-sm-12">
                             <div class="carousel-content center centered">
-                                <h2 class="boxed animation animated-item-1">Automatiza todas tus planillas por un sistema</h2>
+                                <h2 class="boxed animation animated-item-1">Cambia tus planillas por un sistema automatizado</h2>
                                 <!--p class="animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames</p-->
                                 <!--a class="btn btn-md animation animated-item-3" href="#">Learn More</a-->
                             </div>
