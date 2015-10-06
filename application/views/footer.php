@@ -16,7 +16,7 @@
                         <li><a href="#">Conoce al equipo</a></li>
                         <!--li><a href="#">Our Awesome Partners</a></li-->
                         <li><a href="#">Nuestros Servicios</a></li>
-                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="<?php echo base_url(); ?>/index.php/inicio/faqs">Preguntas Frecuentes</a></li>
                         <li><a href="#">Contactanos</a></li>
                         <!--li><a href="#">Privacy Policy</a></li-->
                         <!--li><a href="#">Terms of Use</a></li-->
