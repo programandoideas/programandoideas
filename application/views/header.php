@@ -39,8 +39,8 @@
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="<?php echo base_url();?>">Inicio</a></li>
-                    <li><a href="<?php echo base_url();?>index.php/inicio/Inicio/nosotros">Sobre nosotros</a></li>
-                    <li><a href="<?php echo base_url();?>index.php/inicio/Inicio/servicio">Servicio</a></li>
+                    <li><a href="<?php echo base_url();?>index.php/inicio/nosotros">Sobre nosotros</a></li>
+                    <li><a href="<?php echo base_url();?>index.php/inicio/servicio">Servicio</a></li>
                     
                     <!--POR DEFINIR-->
                     
