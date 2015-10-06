@@ -28,7 +28,7 @@
             <div class="col-md-4 col-sm-6">
                 <div class="media">
                     <div class="pull-left">
-                        <img class="icon-md" src="<?php echo base_url()?>assets/images/servicio/hosting.png"/>
+                        <img class="icon-md" src="<?php echo base_url()?>assets/images/servicio/cloud.png"/>
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">Hosting</h3>
@@ -39,7 +39,7 @@
             <div class="col-md-4 col-sm-6">
                 <div class="media">
                     <div class="pull-left">
-                        <i class="icon-android icon-md"></i>
+                        <img class="icon-md" src="<?php echo base_url()?>assets/images/servicio/php.png"/>
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">PHP</h3>
@@ -50,7 +50,7 @@
             <div class="col-md-4 col-sm-6">
                 <div class="media">
                     <div class="pull-left">
-                        <img class="icon-md" src="<?php echo base_url()?>assets/images/servicio/codeIgniter.jpg"/>
+                        <img class="icon-md" src="<?php echo base_url()?>assets/images/servicio/codeigniter.jpg"/>
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">CodeIgniter</h3>
