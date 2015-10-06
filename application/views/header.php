@@ -60,6 +60,7 @@
                     </li>
                     <li><a href="#">Blog</a></li> -->
                     <li><a href="<?php echo base_url();?>index.php/inicio/Email">Contacto</a></li>
+                    <li><a href="<?php echo base_url();?>index.php/inicio/faqs">Preguntas frecuentes</a></li>
                 </ul>
             </div>
         </div>
