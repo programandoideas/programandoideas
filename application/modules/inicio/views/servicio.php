@@ -100,10 +100,21 @@
             <div class="col-md-4 col-sm-6">
                 <div class="media">
                     <div class="pull-left">
-                        <img class="icon-md" src="<?php echo base_url()?>assets/images/servicio/hosting.png"/>
+                        <img class="icon-md" src="<?php echo base_url()?>assets/images/servicio/sqlserver.jpg"/>
                     </div>
                     <div class="media-body">
-                        <h3 class="media-heading">Hosting</h3>
+                        <h3 class="media-heading">SQL Server</h3>
+                        <p>Una vez desarrollada tu idea, te damos la posibilidad de alojar tu sistema en nuestros hosting con espacio ilimitado</p>
+                    </div>
+                </div>
+            </div><!--/.col-md-4-->
+            <div class="col-md-4 col-sm-6">
+                <div class="media">
+                    <div class="pull-left">
+                        <img class="icon-md" src="<?php echo base_url()?>assets/images/servicio/oracle.png"/>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">Oracle</h3>
                         <p>Una vez desarrollada tu idea, te damos la posibilidad de alojar tu sistema en nuestros hosting con espacio ilimitado</p>
                     </div>
                 </div>
