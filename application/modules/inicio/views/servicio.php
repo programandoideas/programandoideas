@@ -64,7 +64,7 @@
             <div class="col-md-4 col-sm-6">
                 <div class="media">
                     <div class="pull-left">
-                        <i class="icon-linux icon-md"></i>
+                        <img class="icon-md" src="<?php echo base_url()?>assets/images/servicio/bootstrap.png"/>
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">Bootstrap</h3>
@@ -75,7 +75,7 @@
             <div class="col-md-4 col-sm-6">
                 <div class="media">
                     <div class="pull-left">
-                        <i class="icon-dribbble icon-md"></i>
+                        <img class="icon-md" src="<?php echo base_url()?>assets/images/servicio/mysql.png"/>
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">MySQL</h3>
@@ -86,7 +86,7 @@
             <div class="col-md-4 col-sm-6">
                 <div class="media">
                     <div class="pull-left">
-                        <i class="icon-google-plus icon-md"></i>
+                        <img class="icon-md" src="<?php echo base_url()?>assets/images/servicio/html.png"/>
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">HTML</h3>
