@@ -50,7 +50,7 @@
             <div class="col-md-4 col-sm-6">
                 <div class="media">
                     <div class="pull-left">
-                        <i class="icon-apple icon-md"></i>
+                        <img class="icon-md" src="<?php echo base_url()?>assets/images/servicio/codeIgniter.jpg"/>
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">CodeIgniter</h3>
