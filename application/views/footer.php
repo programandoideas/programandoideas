@@ -91,6 +91,7 @@
                     <li><a href="<?php echo base_url(); ?>">Inicio</a></li>
                     <li><a href="<?php echo base_url();?>index.php/inicio/Inicio/nosotros">Sobre nosotros</a></li>
                     <li><a href="<?php echo base_url(); ?>index.php/inicio/email">Contacto</a></li>
+                    <li><a href="<?php echo base_url();?>index.php/inicio/faqs">Preguntas frecuentes</a></li>
                     <li><a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a></li><!--#gototop-->
                 </ul>
             </div>
