@@ -26,19 +26,29 @@
             </div>
             <div id="1" class="panel-collapse collapse">
                 <div class="panel-body">
-                    <p>HTML stands for HyperText Markup Language. HTML is the main markup language for describing the structure of Web pages. <a href="http://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
+                    <p>
+                        Proramando ideas es un lugar en donde podrás contactarte con profesionales que te ayudarán a crear tu idea web.
+                        Cuentanos tus ideas por medio de nuestro formulairo de <a style="color: blue" href="<?php echo base_url();?>index.php/inicio/contacto"><b>CONTACTO.</b></a>
+                        Te contactaremos a la brevedad para ofrerte la mejor solución a tu idea.
+                    </p>
                 </div>
             </div>
         </div>
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#2">2. ¿Que es aplicacion web?</a>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#2">2. ¿Que es una aplicacion web?</a>
                 </h4>
             </div>
             <div id="2" class="panel-collapse collapse">
                 <div class="panel-body">
-                    <p>Bootstrap is a powerful front-end framework for faster and easier web development. It is a collection of CSS and HTML conventions. <a href="http://www.tutorialrepublic.com/twitter-bootstrap-tutorial/" target="_blank">Learn more.</a></p>
+                    <p>
+                      ¿Ha utilizado Facebook, Twitter o ha realizado compras por medio de Mercadolibre? Éstas son aplicaciones web.
+                      Éstas se diferencian de las páginas web al tener una programacion mucho mas compleja para su funcionamiento. 
+                      Las páginas web muestran información estática y son creadas empleando lenguajes de programación con el HTML
+                      , XHTML que son lenguajes que los navegadores tales como Chrome o Firefox, interpretan para mostrarnos la 
+                      información por pantalla
+                    </p>
                 </div>
             </div>
         </div>
