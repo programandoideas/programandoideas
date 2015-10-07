@@ -27,8 +27,8 @@
             <div id="1" class="panel-collapse collapse">
                 <div class="panel-body">
                     <p>
-                        Proramando ideas es un lugar en donde podrás contactarte con profesionales que te ayudarán a crear tu idea web.
-                        Cuentanos tus ideas por medio de nuestro formulairo de <a style="color: blue" href="<?php echo base_url();?>index.php/inicio/contacto"><b>CONTACTO.</b></a>
+                        Programando ideas es un lugar en donde podrás contactarte con profesionales que te ayudarán a crear tu idea web.
+                        Cuéntanos tus ideas por medio de nuestro formulario de <a style="color: blue" href="<?php echo base_url();?>index.php/inicio/contacto"><b>CONTACTO.</b></a>
                         Te contactaremos a la brevedad para ofrerte la mejor solución a tu idea.
                     </p>
                 </div>
@@ -37,16 +37,16 @@
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#2">2. ¿Que es una aplicacion web?</a>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#2">2. ¿Que es una aplicación web?</a>
                 </h4>
             </div>
             <div id="2" class="panel-collapse collapse">
                 <div class="panel-body">
                     <p>
                       ¿Ha utilizado Facebook, Twitter o ha realizado compras por medio de Mercadolibre? Éstas son aplicaciones web.
-                      Éstas se diferencian de las páginas web al tener una programacion mucho mas compleja para su funcionamiento. 
-                      Las páginas web muestran información estática y son creadas empleando lenguajes de programación con el HTML
-                      , XHTML que son lenguajes que los navegadores tales como Chrome o Firefox, interpretan para mostrarnos la 
+                      Éstas se diferencian de las páginas web al tener una programación mucho mas compleja para su funcionamiento. 
+                      Las páginas web muestran información estática y son creadas empleando lenguajes de programación como lo es HTML
+                      , XHTML. Estos lenguajes son interpretados por navegadores tales como Chrome o Firefox, para luego mostrarnos la 
                       información por pantalla
                     </p>
                 </div>
