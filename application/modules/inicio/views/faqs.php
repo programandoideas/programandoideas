@@ -29,7 +29,7 @@
                     <p>
                         Programando ideas es un lugar en donde podrás contactarte con profesionales que te ayudarán a crear tu idea web.
                         Cuéntanos tus ideas por medio de nuestro formulario de <a style="color: blue" href="<?php echo base_url();?>index.php/inicio/contacto"><b>CONTACTO.</b></a>
-                        Te contactaremos a la brevedad para ofrerte la mejor solución a tu idea.
+                        Te contactaremos a la brevedad para ofrecerte la mejor solución a tu idea.
                     </p>
                 </div>
             </div>
