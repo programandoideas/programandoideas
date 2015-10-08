@@ -60,7 +60,10 @@
             </div>
             <div id="3" class="panel-collapse collapse">
                 <div class="panel-body">
-                    <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
+                    <p>
+                        Primeramente tu idea. Tambien necesitarás un dominio. Este lo puede obtener desde <a style="color: blue" href="http://www.nic.cl" target="_blanc"><b>WWW.NIC.CL</b></a>,
+                        Luego de eso...despreocupate. Nosotros haremos el resto.
+                    </p>
                 </div>
             </div>
         </div>
@@ -72,7 +75,9 @@
             </div>
             <div id="4" class="panel-collapse collapse">
                 <div class="panel-body">
-                    <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
+                    <p> 
+                        
+                    </p>
                 </div>
             </div>
         </div>
@@ -84,7 +89,11 @@
             </div>
             <div id="5" class="panel-collapse collapse">
                 <div class="panel-body">
-                    <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
+                    <p>
+                        El dominio lo puedes obtener en <a style="color: blue" href="http://www.nic.cl" target="_blanc"><b>NIC.CL</b></a>. Aunque también existen otras paginas en donde
+                        puedes obtener dominios. En NIC.CL obtiene "www.nombredetudominio.cl". En esta página puede crear dominios ".cl" ya que corresponde
+                        a Chile.
+                    </p>
                 </div>
             </div>
         </div>
@@ -96,7 +105,9 @@
             </div>
             <div id="6" class="panel-collapse collapse">
                 <div class="panel-body">
-                    <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
+                    <p>
+                       Podemos ofrecerte nosotros un dominio que sería del tipo www.tunombredominio.programandoideas.cl 
+                    </p>
                 </div>
             </div>
         </div>
@@ -108,7 +119,10 @@
             </div>
             <div id="7" class="panel-collapse collapse">
                 <div class="panel-body">
-                    <p>CSS stands for Cascading Style Sheet. CSS allows you to specify various style properties for a given HTML element such as colors, backgrounds, fonts etc. <a href="http://www.tutorialrepublic.com/css-tutorial/" target="_blank">Learn more.</a></p>
+                    <p>
+                       Puedes utilizar tu dominio sin ningun problema. Si no tiene donde alojar tu pagina o aplicación, nosotros ofrecemos el servicio de hosting. 
+                        
+                    </p>
                 </div>
             </div>
         </div>
