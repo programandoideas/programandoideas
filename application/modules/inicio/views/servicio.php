@@ -45,7 +45,7 @@
                         <h3 class="media-heading">PHP</h3>
                         <p>
                             Gracias a su gran documentación, flexibilidad
-                            potencia y alto rendimiento en uno de los mejores candidatos para el desarrollo de sistemas ya sean basicos o complejos.
+                            potencia y alto rendimiento es uno de los mejores candidatos para el desarrollo de sistemas ya sean basicos o complejos.
                         </p>
                     </div>
                 </div>
