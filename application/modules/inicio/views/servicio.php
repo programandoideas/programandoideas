@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-sm-6">
                 <h1>Servicio</h1>
-                <!--p>Pellentesque habitant morbi tristique senectus et netus et malesuada</p-->
+                <p>Pequeña reseña del servicio a proporcionar</p>
             </div>
             <div class="col-sm-6">
                 <ul class="breadcrumb pull-right">
@@ -43,7 +43,10 @@
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">PHP</h3>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                        <p>
+                            Gracias a su gran documentación, flexibilidad
+                            potencia y alto rendimiento en uno de los mejores candidatos para el desarrollo de sistemas ya sean basicos o complejos.
+                        </p>
                     </div>
                 </div>
             </div><!--/.col-md-4-->
@@ -54,7 +57,7 @@
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">CodeIgniter</h3>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                        <p>Framework MVC que normaliza la estructura y lógica en la forma de desarrollo de PHP.</p>
                     </div>
                 </div>
             </div><!--/.col-md-4-->
@@ -64,11 +67,22 @@
             <div class="col-md-4 col-sm-6">
                 <div class="media">
                     <div class="pull-left">
+                        <img class="icon-md" src="<?php echo base_url()?>assets/images/servicio/html.png"/>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">HTML</h3>
+                        <p>Estándar que sirve de referencia para la elaboración de páginas web en sus diferentes versiones.</p>
+                    </div>
+                </div>
+            </div><!--/.col-md-4-->
+            <div class="col-md-4 col-sm-6">
+                <div class="media">
+                    <div class="pull-left">
                         <img class="icon-md" src="<?php echo base_url()?>assets/images/servicio/bootstrap.png"/>
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">Bootstrap</h3>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                        <p>Framework gráfico utilizado para el diseño de sitios y aplicaciones web.</p>
                     </div>
                 </div>
             </div><!--/.col-md-4-->
@@ -79,23 +93,12 @@
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">MySQL</h3>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
-                    </div>
-                </div>
-            </div><!--/.col-md-4-->
-            <div class="col-md-4 col-sm-6">
-                <div class="media">
-                    <div class="pull-left">
-                        <img class="icon-md" src="<?php echo base_url()?>assets/images/servicio/html.png"/>
-                    </div>
-                    <div class="media-body">
-                        <h3 class="media-heading">HTML</h3>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+                        <p>Sistema de gestión de bases de datos relacional, multihilo y multiusuario.</p>
                     </div>
                 </div>
             </div><!--/.col-md-4-->
         </div><!--/.row-->
-        <div class="gap"></div>
+        <!--div class="gap"></div>
         <div class="row">
             <div class="col-md-4 col-sm-6">
                 <div class="media">
@@ -107,7 +110,7 @@
                         <p>Una vez desarrollada tu idea, te damos la posibilidad de alojar tu sistema en nuestros hosting con espacio ilimitado</p>
                     </div>
                 </div>
-            </div><!--/.col-md-4-->
+            </div>
             <div class="col-md-4 col-sm-6">
                 <div class="media">
                     <div class="pull-left">
@@ -118,7 +121,7 @@
                         <p>Una vez desarrollada tu idea, te damos la posibilidad de alojar tu sistema en nuestros hosting con espacio ilimitado</p>
                     </div>
                 </div>
-            </div><!--/.col-md-4-->
-        </div>
+            </div>
+        </div-->
     </div>
 </section><!--/#services-->
