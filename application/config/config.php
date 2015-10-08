@@ -18,7 +18,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $server = $_SERVER['SERVER_NAME'];
-$config['base_url'] = 'http://'.$server.'/programandoideas/';;
+$config['base_url'] = 'http://'.$server.'/programandoideas/';
 
 /*
 |--------------------------------------------------------------------------
