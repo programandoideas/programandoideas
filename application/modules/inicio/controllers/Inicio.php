@@ -26,4 +26,8 @@ class Inicio extends MY_Controller{
     public function faqs(){
         $this->Plantilla("faqs",array());
     }
+    
+    public function error(){
+        $this->Plantilla("error",array());
+    }
 }
