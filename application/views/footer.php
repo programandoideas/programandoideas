@@ -59,22 +59,7 @@
             </div--><!--/.col-md-3-->
 
             <div class="col-md-4 col-sm-6">
-                <h4>Dirección</h4>
-                <address>
-                    <strong>Twitter, Inc.</strong><br>
-                    795 Folsom Ave, Suite 600<br>
-                    San Francisco, CA 94107<br>
-                    <abbr title="Phone">P:</abbr> (123) 456-7890
-                </address>
-                <h4>Newsletter</h4>
-                <form role="form">
-                    <div class="input-group">
-                        <input type="text" class="form-control" autocomplete="off" placeholder="Enter your email">
-                        <span class="input-group-btn">
-                            <button class="btn btn-danger" type="button">Go!</button>
-                        </span>
-                    </div>
-                </form>
+                <a class="navbar-brand" href="<?php echo base_url();?>"><img src="<?php echo base_url();?>assets/images/logo.png" width="150px" alt="logo"></a>
             </div> <!--/.col-md-3-->
         </div>
     </div>
