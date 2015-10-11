@@ -106,7 +106,7 @@
             <div id="6" class="panel-collapse collapse">
                 <div class="panel-body">
                     <p>
-                       Podemos ofrecerte nosotros un dominio que sería del tipo www.tunombredominio.programandoideas.cl 
+                       Podemos ofrecerte nosotros un sub-dominio que sería del tipo www.tunombredominio.programandoideas.cl 
                     </p>
                 </div>
             </div>
@@ -120,7 +120,7 @@
             <div id="7" class="panel-collapse collapse">
                 <div class="panel-body">
                     <p>
-                        Puedes utilizar tu dominio sin ningun problema. Si no tiene donde alojar tu pagina o aplicación, nosotros ofrecemos el servicio de <a href="<?php echo base_url();?>/index.php/inicio/servicio" style="color: blue"><b>HOSTING</b></a>. 
+                        Puedes utilizar tu dominio sin ningun problema. Si no tiene donde alojar tu pagina o aplicación, nosotros ofrecemos el servicio de <a href="<?php echo base_url();?>index.php/inicio/servicio" style="color: blue"><b>HOSTING</b></a>. 
                         
                     </p>
                 </div>
