@@ -53,16 +53,6 @@
                         <span>MySQL</span>
                     </div>
                 </div>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100" style="width: 68%;">
-                        <span>SQL Server</span>
-                    </div>
-                </div>
-                <div class="progress">
-                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                        <span>Oracle</span>
-                    </div>
-                </div>
             </div>
         </div><!--/.col-sm-6-->
     </div><!--/.row-->
