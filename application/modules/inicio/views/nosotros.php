@@ -76,7 +76,7 @@
         <div class="col-md-3 col-xs-6">
             <div class="center">
                 <p><img class="img-responsive img-thumbnail img-circle" src="<?php echo base_url()?>assets/images/equipo/e_catalan.jpg" alt="" width="170px"></p>
-                <h5>Elias Catalán<small class="designation muted">Senior Vice President</small></h5>
+                <h5>Elias Catalán</h5>
                 <p>Ingeniero en informática</p>
                 <a class="btn btn-social btn-linkedin" href="https://cl.linkedin.com/pub/elias-catal%C3%A1n-garc%C3%ADa/7a/519/b05" target="_blanc"><i class="icon-linkedin"></i></a>
             </div>
@@ -85,7 +85,7 @@
         <div class="col-md-3 col-xs-6">
             <div class="center">
                 <p><img class="img-responsive img-thumbnail img-circle" src="<?php echo base_url()?>assets/images/equipo/h_vega.jpg" alt="" width="170px"></p>
-                <h5>Hugo Vega<small class="designation muted">Senior Vice President</small></h5>
+                <h5>Hugo Vega</h5>
                 <p>Ingeniero en informática, Contador y Consultor SAP</p>
                 <a class="btn btn-social btn-linkedin" href="https://cl.linkedin.com/pub/hugo-vega-leiva/6a/441/b4a" target="_blanc"><i class="icon-linkedin"></i></a>
             </div>
@@ -93,7 +93,7 @@
         <div class="col-md-3 col-xs-6">
             <div class="center">
                 <p><img class="img-responsive img-thumbnail img-circle" src="<?php echo base_url()?>assets/images/equipo/i_olivares.jpg" alt="" width="170px"></p>
-                <h5>Israel Olivares<small class="designation muted">Senior Vice President</small></h5>
+                <h5>Israel Olivares</h5>
                 <p>Ingeniero en informática</p>
                 <a class="btn btn-social btn-linkedin" href="https://cl.linkedin.com/pub/israel-olivares-henriquez/40/69b/925" target="_blanc"><i class="icon-linkedin"></i></a>
             </div>
@@ -101,7 +101,7 @@
         <div class="col-md-3 col-xs-6">
             <div class="center">
                 <p><img class="img-responsive img-thumbnail img-circle" src="<?php echo base_url()?>assets/images/equipo/p_olavarria.jpg" alt="" width="170px"></p>
-                <h5>Pablo Olavarria<small class="designation muted">Senior Vice President</small></h5>
+                <h5>Pablo Olavarria</h5>
                 <p>Ingeniero en informática</p>
                 <a class="btn btn-social btn-linkedin" href="https://cl.linkedin.com/pub/pablo-olavarria-arce/7a/526/a3a" target="_blanc"><i class="icon-linkedin"></i></a>
             </div>
