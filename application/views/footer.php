@@ -15,7 +15,7 @@
                         <li><a href="<?php echo base_url(); ?>index.php/inicio/nosotros">Descripción de la Compañia</a></li>
                         <li><a href="<?php echo base_url(); ?>index.php/inicio/nosotros">Conoce al equipo</a></li>
                         <!--li><a href="#">Our Awesome Partners</a></li-->
-                        <li><a href="<?php echo base_url(); ?>index.php/inicio/servicios">Nuestros Servicios</a></li>
+                        <li><a href="<?php echo base_url(); ?>index.php/inicio/servicio">Nuestros Servicios</a></li>
                         <li><a href="<?php echo base_url(); ?>index.php/inicio/faqs">Preguntas Frecuentes</a></li>
                         <li><a href="<?php echo base_url(); ?>index.php/inicio/contacto">Contactanos</a></li>
                         <!--li><a href="#">Privacy Policy</a></li-->
