@@ -54,8 +54,6 @@ class Email extends MY_Controller{
             $this->email->to('contacto@programandoideas.cl');
             $this->email->subject('[CONTACTO]');
             $this->email->message($mensaje);
-//            $this->email->message($apellido." ".$nombre.", se ha puesto en contacto y ha dicho: ".$mensaje);
-//            var_dump($this->email->print_debugger());
             if($this->email->send()){
                 
                 $men =  "Su mensaje ha sido enviado exitosamente. Pronto nos contactaremos con usted. ¡GRACIAS POR VISITARNOS!";
