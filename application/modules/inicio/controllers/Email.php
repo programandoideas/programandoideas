@@ -54,12 +54,14 @@ class Email extends MY_Controller{
             $this->email->to('contacto@programandoideas.cl');
             $this->email->subject('[CONTACTO]');
             $this->email->message($mensaje);
+
             if($this->email->send()){
                 
                 $men =  "Su mensaje ha sido enviado exitosamente. Pronto nos contactaremos con usted. ¡GRACIAS POR VISITARNOS!";
                 $data['clase']="alert-info";
                 $data['mensaje'] = $men;
                 $data['id'] = "mensaje";
+                
             }else{
                 
                 $men =  "No ha sido posible enviar el mensaje. Puede enviarnos un correo a contacto@programandoideas.cl";
@@ -69,6 +71,13 @@ class Email extends MY_Controller{
             } 
             $this->Plantilla("contacto",$data);
         }
+    }
+
+
+    public function reenvio(){ 
+
+
+
     }
     
     
