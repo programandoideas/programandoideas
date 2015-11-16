@@ -41,7 +41,7 @@ class Email extends MY_Controller{
                     'protocol'  => 'smtp',
                     'smtp_host' => 'smtp.programandoideas.cl',
                     'smtp_port' => 465,
-                    'smtp_user' => 'contacto@programandoideas.cl',
+                    'smtp_user' => 'contacto@dwchile.cl',
                     'smtp_pass' => 'pr0gr4m4nd01d345',
                     'mailtype'  => 'html',
                     'charset'   => 'utf-8',
@@ -51,7 +51,7 @@ class Email extends MY_Controller{
             
             $this->load->library("email",$config);
             $this->email->from($email,$apellido." ".$nombre);
-            $this->email->to('contacto@programandoideas.cl');
+            $this->email->to('contacto@dwchile.cl');
             $this->email->subject('[CONTACTO]');
             $this->email->message($mensaje);
 
@@ -64,7 +64,7 @@ class Email extends MY_Controller{
                 
             }else{
                 
-                $men =  "No ha sido posible enviar el mensaje. Puede enviarnos un correo a contacto@programandoideas.cl";
+                $men =  "No ha sido posible enviar el mensaje. Puede enviarnos un correo a contacto@dwchile.cl";
                 $data['clase']="alert-danger";
                 $data['mensaje'] = $men;
                 $data['id'] = "mensaje1";

@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-5 col-sm-6">
                 <h4>Sobre Nosotros</h4>
-                <p> Programando ideas es una empresa fundada en el año 2015 dedicada al desarrollo de aplicaciones web y todo 
+                <p> DWCHILE es una empresa fundada en el año 2015 dedicada al desarrollo de aplicaciones web y todo 
                     tipo de asesorias informaticas. 
                 </p>
             </div><!--/.col-md-3-->
@@ -69,7 +69,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                &copy; 2015 <a href="<?php base_url(); ?>">Programando-Ideas</a> | Todos los derechos reservados &REG;
+                &copy; 2015 <a href="<?php base_url(); ?>">DWCHILE</a> | Todos los derechos reservados &REG;
             </div>
             <div class="col-sm-6">
                 <ul class="pull-right">

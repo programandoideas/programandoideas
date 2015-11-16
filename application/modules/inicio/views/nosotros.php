@@ -19,7 +19,7 @@
     <div class="row">
         <div class="col-sm-6">
             <h2>Quienes Somos</h2>
-            <p>Programando ideas es una empresa fundada en el año 2015 dedicada al desarrollo de aplicaciones web y todo tipo de asesorias informaticas. 
+            <p>DWCHILE es una empresa fundada en el año 2015 dedicada al desarrollo de aplicaciones web y todo tipo de asesorias informaticas. 
                 Nuestro proposito es ser una nueva alternativa para soluciones informáticas. Nuestra misión es ser una empresa reconocida, todo esto con 
                 el apoyo y vasta experiencia de nuestro equipo humano. Creada por 4 jovenes motivados y apasionados por hacer realidad tus ideas. 
                 Nosotros te ayudamos a darle el plus que necesita tu negocio dandolo a conocer en este inmenso mundo del Internet.

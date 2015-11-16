@@ -21,13 +21,13 @@
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#1">1. ¿Que es programando ideas?</a>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#1">1. ¿Que es DWCHILE?</a>
                 </h4>
             </div>
             <div id="1" class="panel-collapse collapse">
                 <div class="panel-body">
                     <p>
-                        Programando ideas es un lugar en donde podrás contactarte con profesionales que te ayudarán a crear tu idea web.
+                        DWCHILE es un lugar en donde podrás contactarte con profesionales que te ayudarán a crear tu idea web.
                         Cuéntanos tus ideas por medio de nuestro formulario de <a style="color: blue" href="<?php echo base_url();?>index.php/inicio/contacto"><b>CONTACTO.</b></a>
                         Te contactaremos a la brevedad para ofrecerte la mejor solución a tu idea.
                     </p>
@@ -106,7 +106,7 @@
             <div id="6" class="panel-collapse collapse">
                 <div class="panel-body">
                     <p>
-                       Podemos ofrecerte nosotros un sub-dominio que sería del tipo www.tunombredominio.programandoideas.cl 
+                       Podemos ofrecerte nosotros un sub-dominio que sería del tipo www.tunombredominio.dwchile.cl 
                     </p>
                 </div>
             </div>
