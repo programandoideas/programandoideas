@@ -22,12 +22,15 @@ class Inicio extends MY_Controller{
         $this->Plantilla("servicio",array());
     }
     
-    
     public function faqs(){
         $this->Plantilla("faqs",array());
     }
     
     public function error(){
         $this->Plantilla("error",array());
+    }
+    
+    public function correo(){
+        $this->load->view('correo');
     }
 }

@@ -4,6 +4,7 @@ class Email extends MY_Controller{
     
     public function __construct() {
         parent::__construct();
+        $this->load->library("email");
     }
     
     public function index(){
@@ -37,19 +38,7 @@ class Email extends MY_Controller{
             $this->Plantilla("contacto",$data);
             
         }else{
-            $config = array(
-                    'protocol'  => 'smtp',
-                    'smtp_host' => 'smtp.programandoideas.cl',
-                    'smtp_port' => 465,
-                    'smtp_user' => 'contacto@dwchile.cl',
-                    'smtp_pass' => 'pr0gr4m4nd01d345',
-                    'mailtype'  => 'html',
-                    'charset'   => 'utf-8',
-                    'wordwrap'  => TRUE,
-                    'newline'   => "\r\n"
-            );    
             
-            $this->load->library("email",$config);
             $this->email->from($email,$apellido." ".$nombre);
             $this->email->to('contacto@dwchile.cl');
             $this->email->subject('[CONTACTO]');
@@ -74,12 +63,16 @@ class Email extends MY_Controller{
     }
 
 
-    public function reenvio(){ 
+    public function reenvio(){
+        $mensaje = "";
+        
+        $this->email->from('no-reply@dwchile.cl','DWChile');
+        $this->email->to('contacto@dwchile.cl');
+        $this->email->subject('Nueva solicitud');
+        $this->email->message($mensaje);
 
+        if($this->email->send()){
 
-
+        }
     }
-    
-    
-    
 }
