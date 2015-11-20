@@ -4,7 +4,7 @@ class Email extends MY_Controller{
     
     public function __construct() {
         parent::__construct();
-        $conf_mail = array(
+        /*$conf_mail = array(
                 'protocol'  => 'smtp',
                 'smtp_host' => 'smtp.programandoideas.cl',
                 'smtp_port' => 465,
@@ -14,8 +14,8 @@ class Email extends MY_Controller{
                 'charset'   => 'utf-8',
                 'wordwrap'  => TRUE,
                 'newline'   => "\r\n"
-        );
-        $this->load->library("email",$conf_mail);
+        );*/
+        $this->load->library("email");
     }
     
     public function index(){
@@ -85,7 +85,7 @@ class Email extends MY_Controller{
 
     public function Reenvio($email){
         $path = base_url();
-        $mensaje = "<html xmlns=\"http://www.w3.org/1999/xhtml\">";
+        $mensaje = "<html xmlns={unwrap}\"http://www.w3.org/1999/xhtml\">";
         $mensaje .= "<head>
                         <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/>
                         <link href='".$path."assets/css/bootstrap.min.css' rel='stylesheet'>
@@ -167,7 +167,7 @@ class Email extends MY_Controller{
                     </div>";
         $mensaje .= "</body></html>";
         
-        $mensaje = "<html xmlns=\"http://www.w3.org/1999/xhtml\"> <body><b>hola mundo<b/></body></html>";
+        //$mensaje = "<html xmlns=\"http://www.w3.org/1999/xhtml\"> <body><b>hola mundo<b/></body></html>";
         
         $this->email->from('no-reply@dwchile.cl','DWChile');
         $this->email->to($email);
