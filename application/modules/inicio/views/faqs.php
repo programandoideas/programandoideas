@@ -73,7 +73,7 @@
                     <a data-toggle="collapse" data-parent="#accordion" href="#4">4. ¿Cómo obtengo un dominio?</a>
                 </h4>
             </div>
-            <div id="5" class="panel-collapse collapse">
+            <div id="4" class="panel-collapse collapse">
                 <div class="panel-body">
                     <p>
                         El dominio lo puedes obtener en <a style="color: blue" href="http://www.nic.cl" target="_blanc"><b>NIC.CL</b></a>. Aunque también existen otras paginas en donde
@@ -89,7 +89,7 @@
                     <a data-toggle="collapse" data-parent="#accordion" href="#5">5. ¿Y si no quiero pagar por un dominio?</a>
                 </h4>
             </div>
-            <div id="6" class="panel-collapse collapse">
+            <div id="5" class="panel-collapse collapse">
                 <div class="panel-body">
                     <p>
                        Podemos ofrecerte nosotros un sub-dominio que sería del tipo www.tunombredominio.dwchile.cl 
@@ -103,7 +103,7 @@
                     <a data-toggle="collapse" data-parent="#accordion" href="#6">6. ¿Y si ya poseo un dominio?</a>
                 </h4>
             </div>
-            <div id="7" class="panel-collapse collapse">
+            <div id="6" class="panel-collapse collapse">
                 <div class="panel-body">
                     <p>
                         Puedes utilizar tu dominio sin ningun problema. Si no tiene donde alojar tu pagina o aplicación, nosotros ofrecemos el servicio de <a href="<?php echo base_url();?>index.php/inicio/servicio" style="color: blue"><b>HOSTING</b></a>. 
