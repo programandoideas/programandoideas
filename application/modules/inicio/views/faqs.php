@@ -70,21 +70,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#4">4. ¿Que es un dominio?</a>
-                </h4>
-            </div>
-            <div id="4" class="panel-collapse collapse">
-                <div class="panel-body">
-                    <p> 
-                        
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#5">5. ¿Cómo obtengo un dominio?</a>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#4">4. ¿Cómo obtengo un dominio?</a>
                 </h4>
             </div>
             <div id="5" class="panel-collapse collapse">
@@ -100,7 +86,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#6">6. ¿Y si no quiero pagar por un dominio?</a>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#5">5. ¿Y si no quiero pagar por un dominio?</a>
                 </h4>
             </div>
             <div id="6" class="panel-collapse collapse">
@@ -114,7 +100,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#7">7. ¿Y si ya poseo un dominio?</a>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#6">6. ¿Y si ya poseo un dominio?</a>
                 </h4>
             </div>
             <div id="7" class="panel-collapse collapse">
