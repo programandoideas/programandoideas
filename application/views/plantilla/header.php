@@ -59,7 +59,7 @@
                         </ul>
                     </li>
                     <li><a href="#">Blog</a></li> -->
-                    <li><a href="<?php echo base_url();?>index.php/Inicio/contacto">Contacto</a></li>
+                    <li><a href="<?php echo base_url();?>index.php/Email">Contacto</a></li>
                     <li><a href="<?php echo base_url();?>index.php/Inicio/faqs">Preguntas frecuentes</a></li>
                 </ul>
             </div>

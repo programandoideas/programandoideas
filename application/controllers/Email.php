@@ -6,8 +6,8 @@ class Email extends MY_Controller{
         parent::__construct();
     }
     
-    public function index(){
-        $this->Plantilla("contacto",array());
+    public function index($data = false){
+        $this->Plantilla("contacto",array('captcha' => $this->CreaCaptcha(),'data' => $data));
     }
     
     public function Envio_email(){
@@ -20,7 +20,7 @@ class Email extends MY_Controller{
         $this->form_validation->set_rules("nombre","Nombre","trim|min_length[3]");
         $this->form_validation->set_rules("apellido","Apellido","trim|min_length[3]");
         $this->form_validation->set_rules("email","Email","trim|valid_email");
-        
+        $this->form_validation->set_rules('captcha', 'Captcha', 'callback_validate_captcha');
         
         $this->form_validation->set_message('min_length',"El campo %s debe tener a lo menos 3 caracteres");
         $this->form_validation->set_message('valid_base64',"El campo %s contiene caracteres invalidos.");
@@ -32,9 +32,10 @@ class Email extends MY_Controller{
             $data['clase']="alert-danger";
             $data['mensaje'] = $men;
             $data['id'] = "mensaje1";
-            $this->Plantilla("contacto",$data);
+            $this->index($data);
             
         }else{
+            $this->RemueveCaptcha();
             
             $this->ConfigMail();
             $this->email->set_mailtype("html");
@@ -72,7 +73,7 @@ class Email extends MY_Controller{
                 $data['mensaje'] = $men;
                 $data['id'] = "mensaje1";
             }
-            $this->Plantilla("contacto",$data);
+            $this->index($data);
         }
     }
 

@@ -20,4 +20,38 @@ class MY_Controller extends CI_Controller{
 
         $this->load->library("email",$conf_mail);
     }
+    
+    public function CreaCaptcha(){
+        $this->load->model('Captcha');
+        $this->rand = substr(number_format(time() * rand(),0,'',''),0,6);
+        $conf_captcha = array(
+                'word'          => $this->rand,
+                'img_path'      => './captcha/',
+                'img_url'       =>  base_url().'captcha/',
+                'font_path'     => './captcha/fonts/Sears.ttf',
+                'img_width'     => '120',
+                'img_height'    => '40',
+                'expiration'    => 300 
+        );
+        
+        $cap = create_captcha($conf_captcha);
+        $this->session->set_userdata('captcha', $this->rand);
+        $this->Captcha->InsertaCaptcha($cap);
+        return $cap;
+    }
+    
+    public function validate_captcha(){
+        if($this->input->post('captcha') != $this->session->userdata('captcha')){
+            $this->form_validation->set_message('validate_captcha', 'Ingrese captcha nuevamente');
+            return false;
+        }else{
+            return true;
+        }
+    }
+    
+    public function RemueveCaptcha(){
+        $this->load->model('Captcha');
+        $expiracion = time()-300; // Límite de 10 minutos 
+        $this->Captcha->RemueveCaptcha($expiracion);
+    }
 }
