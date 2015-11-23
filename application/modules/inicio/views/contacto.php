@@ -36,20 +36,20 @@
                 <div class="row">
                     <div class="col-sm-5">
                         <div class="form-group">
-                            <input type="text" name="nombre"  class="form-control" required="required" placeholder="Nombre">
+                            <input type="text" name="nombre" id="nombre" tabindex="1" class="form-control" required="required" placeholder="Nombre">
                         </div>
                         <div class="form-group">
-                            <input type="text" name="apellido" class="form-control" required="required" placeholder="Apellido">
+                            <input type="text" name="apellido" tabindex="2" class="form-control" required="required" placeholder="Apellido">
                         </div>
                         <div class="form-group">
-                            <input type="text" name="email" class="form-control" required="required" placeholder="Email">
+                            <input type="text" name="email" tabindex="3" class="form-control" required="required" placeholder="Email">
                         </div>
                         <div class="form-group">
-                            <input type="submit" value="Enviar" class="btn btn-primary btn-lg"/>
+                            <input type="submit" value="Enviar" tabindex="5 " class="btn btn-primary btn-lg"/>
                         </div>
                     </div>
                     <div class="col-sm-7">
-                        <textarea name="mensaje" id="message" required="required" class="form-control" rows="8" placeholder="Mensaje"></textarea>
+                        <textarea name="mensaje" tabindex="4" id="message" required="required" class="form-control" rows="8" placeholder="Mensaje"></textarea>
                     </div>
                 </div>
             </form>
@@ -58,6 +58,7 @@
 </section><!--/#contact-page-->
 
 <script>
+    document.getElementById('nombre').focus();
     
     $(document).ready(function() {
         if ($("#mensaje")) {
