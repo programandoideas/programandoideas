@@ -35,7 +35,18 @@ class Email extends MY_Controller{
             $this->index($data);
             
         }else{
-            $this->RemueveCaptcha();
+            
+            $expiracion = time()-300;
+            $ip = $this->input->ip_address();
+            $captcha = $this->input->post('captcha');
+
+            $this->RemueveCaptcha($expiration);
+            if($this->ExisteCaptcha($ip,$expiracion,$captcha)){
+                
+            }
+            
+            
+            
             
             $this->ConfigMail();
             $this->email->set_mailtype("html");

@@ -26,8 +26,14 @@ class Captcha extends CI_Model{
         }
     }
     
-    public function ExisteCaptcha(){
-        
+    public function ExisteCaptcha($tiempo,$ip,$palabra){
+        $sql = "SELECT * FROM captcha WHERE tiempo_captcha = ? AND ip = ? AND palabra = ?";
+        $data = $this->db->query($sql, array($tiempo,$ip,$palabra));
+        if($data){
+            return $sql->num_rows();
+        }else{
+            return false;
+        }
     }
     
 }

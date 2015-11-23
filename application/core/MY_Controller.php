@@ -2,6 +2,11 @@
 
 class MY_Controller extends CI_Controller{
     
+    public function __construct() {
+        parent::__construct();
+        $this->load->model('Captcha');
+    }
+    
     public function Plantilla($view, $data = array()){
         $this->load->view("./plantilla/header");
         $this->load->view($view,$data);
@@ -22,7 +27,7 @@ class MY_Controller extends CI_Controller{
     }
     
     public function CreaCaptcha(){
-        $this->load->model('Captcha');
+        
         $this->rand = substr(number_format(time() * rand(),0,'',''),0,6);
         $conf_captcha = array(
                 'word'          => $this->rand,
@@ -49,9 +54,11 @@ class MY_Controller extends CI_Controller{
         }
     }
     
-    public function RemueveCaptcha(){
-        $this->load->model('Captcha');
-        $expiracion = time()-300; // Límite de 10 minutos 
+    public function RemueveCaptcha($expiracion){
         $this->Captcha->RemueveCaptcha($expiracion);
+    }
+    
+    public function ExisteCaptcha($ip,$expiracion,$captcha){
+        $check = $this->Captcha->check($ip,$expiration,$captcha);
     }
 }
