@@ -36,18 +36,8 @@ class Email extends MY_Controller{
             
         }else{
             
-            $conf_mail['protocol'] = 'smtp';
-            $conf_mail['smtp_host'] = 'smtp.programandoideas.cl';                   //smtp.programandoideas.cl
-            $conf_mail['smtp_port'] = 465;                                          //local 25 //pro:465
-            $conf_mail['smtp_user'] = 'contacto@dwchile.cl';                        //contacto@dwchile.cl
-            $conf_mail['smtp_pass'] = 'pr0gr4m4nd01d345';                           //pr0gr4m4nd01d345
-            $conf_mail['charset'] = 'utf-8';
-            $conf_mail['wordwrap'] = TRUE;
-            $conf_mail['newline'] = "\r\n";
-
+            $this->ConfigMail();
             $this->email->set_mailtype("html");
-            $this->load->library("email",$conf_mail);
-            
             $this->email->from($email,$apellido." ".$nombre);
             $this->email->to('contacto@dwchile.cl');
             $this->email->subject('[CONTACTO]');
@@ -88,18 +78,9 @@ class Email extends MY_Controller{
 
 
     public function Reenvio($email,$nombre,$detalle){
-        $conf_mail['protocol'] = 'smtp';
-        $conf_mail['smtp_host'] = 'smtp.programandoideas.cl';                   //smtp.programandoideas.cl
-        $conf_mail['smtp_port'] = 465;                                          //local 25 //pro:465
-        $conf_mail['smtp_user'] = 'contacto@dwchile.cl';                        //contacto@dwchile.cl
-        $conf_mail['smtp_pass'] = 'pr0gr4m4nd01d345';                           //pr0gr4m4nd01d345
-        $conf_mail['charset'] = 'utf-8';
-        $conf_mail['wordwrap'] = TRUE;
-        $conf_mail['newline'] = "\r\n";
-        
-        $this->email->set_mailtype("html");
-        $this->load->library("email",$conf_mail);
-                
+      
+        $this->ConfigMail();
+        $this->email->set_mailtype("html");                
         $this->email->from('no-reply@dwchile.cl','DWChile');
         $this->email->to($email);
         $this->email->subject('Solicitud');

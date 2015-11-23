@@ -12,12 +12,12 @@
                 <h4>Compañia</h4>
                 <div>
                     <ul class="arrow">
-                        <li><a href="<?php echo base_url(); ?>index.php/inicio/nosotros">Descripción de la Compañia</a></li>
-                        <li><a href="<?php echo base_url(); ?>index.php/inicio/nosotros">Conoce al equipo</a></li>
+                        <li><a href="<?php echo base_url(); ?>index.php/Inicio/nosotros">Descripción de la Compañia</a></li>
+                        <li><a href="<?php echo base_url(); ?>index.php/Inicio/nosotros">Conoce al equipo</a></li>
                         <!--li><a href="#">Our Awesome Partners</a></li-->
-                        <li><a href="<?php echo base_url(); ?>index.php/inicio/servicio">Nuestros Servicios</a></li>
-                        <li><a href="<?php echo base_url(); ?>index.php/inicio/faqs">Preguntas Frecuentes</a></li>
-                        <li><a href="<?php echo base_url(); ?>index.php/inicio/contacto">Contactanos</a></li>
+                        <li><a href="<?php echo base_url(); ?>index.php/Inicio/servicio">Nuestros Servicios</a></li>
+                        <li><a href="<?php echo base_url(); ?>index.php/Inicio/faqs">Preguntas Frecuentes</a></li>
+                        <li><a href="<?php echo base_url(); ?>index.php/Inicio/contacto">Contactanos</a></li>
                         <!--li><a href="#">Privacy Policy</a></li-->
                         <!--li><a href="#">Terms of Use</a></li-->
                         <!--li><a href="#">Copyright</a></li-->
@@ -74,9 +74,9 @@
             <div class="col-sm-6">
                 <ul class="pull-right">
                     <li><a href="<?php echo base_url(); ?>">Inicio</a></li>
-                    <li><a href="<?php echo base_url();?>index.php/inicio/Inicio/nosotros">Sobre nosotros</a></li>
-                    <li><a href="<?php echo base_url(); ?>index.php/inicio/email">Contacto</a></li>
-                    <li><a href="<?php echo base_url();?>index.php/inicio/faqs">Preguntas frecuentes</a></li>
+                    <li><a href="<?php echo base_url();?>index.php/Inicio/nosotros">Sobre nosotros</a></li>
+                    <li><a href="<?php echo base_url(); ?>index.php/Inicio/contacto">Contacto</a></li>
+                    <li><a href="<?php echo base_url();?>index.php/Inicio/faqs">Preguntas frecuentes</a></li>
                     <li><a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a></li><!--#gototop-->
                 </ul>
             </div>

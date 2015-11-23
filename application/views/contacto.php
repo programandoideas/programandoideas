@@ -32,7 +32,7 @@
         <div class="col-sm-12">
             <h4>Formulario de contacto</h4>
             <div class="status alert alert-success" style="display: none"></div>
-            <form id="main-contact-form"  name="contact-form" method="post" action="<?php echo base_url(); ?>index.php/inicio/email/Envio_email" role="form">
+            <form id="main-contact-form"  name="contact-form" method="post" action="<?php echo base_url(); ?>index.php/email/Envio_email" role="form">
                 <div class="row">
                     <div class="col-sm-5">
                         <div class="form-group">
