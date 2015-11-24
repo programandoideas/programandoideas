@@ -63,6 +63,8 @@ class Email extends MY_Controller{
                         $data['clase']="alert-info";
                         $data['mensaje'] = $men;
                         $data['id'] = "mensaje";
+                        
+                        $this->Plantilla('gracias',$data);
 
                     }else{
 
@@ -70,6 +72,7 @@ class Email extends MY_Controller{
                         $data['clase']="alert-danger";
                         $data['mensaje'] = $men;
                         $data['id'] = "mensaje1";
+                        $this->index($data);
 
                     }
                 }else{
@@ -78,6 +81,7 @@ class Email extends MY_Controller{
                     $data['clase']="alert-danger";
                     $data['mensaje'] = $men;
                     $data['id'] = "mensaje1";
+                    $this->index($data);
                 }
             }else{
                 
@@ -85,9 +89,9 @@ class Email extends MY_Controller{
                 $data['clase']="alert-danger";
                 $data['mensaje'] = $men;
                 $data['id'] = "mensaje1";
-                
+                $this->index($data);
             }
-            $this->index($data);
+            
         }
     }
 

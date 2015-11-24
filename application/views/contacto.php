@@ -56,7 +56,7 @@
                         </div>
                     </div>
                     <div class="col-sm-7">
-                        <textarea name="mensaje" tabindex="4" id="message" required="required" class="form-control" rows="8" placeholder="Mensaje"><?php echo set_value('nombre');?></textarea>
+                        <textarea name="mensaje" tabindex="4" id="message" required="required" class="form-control" rows="8" placeholder="Mensaje"><?php echo set_value('mensaje');?></textarea>
                     </div>
                 </div>
             </form>
