@@ -59,6 +59,10 @@ class MY_Controller extends CI_Controller{
     }
     
     public function ExisteCaptcha($ip,$expiracion,$captcha){
-        $check = $this->Captcha->check($ip,$expiration,$captcha);
+        $check = $this->Captcha->ExisteCaptcha($expiracion,$ip,$captcha);
+        foreach ($check as $row){
+            return true;
+        }
+        return false;
     }
 }

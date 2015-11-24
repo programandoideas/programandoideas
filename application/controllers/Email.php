@@ -40,49 +40,54 @@ class Email extends MY_Controller{
             $ip = $this->input->ip_address();
             $captcha = $this->input->post('captcha');
 
-            $this->RemueveCaptcha($expiration);
-            if($this->ExisteCaptcha($ip,$expiracion,$captcha)){
-                
-            }
-            
-            
-            
-            
-            $this->ConfigMail();
-            $this->email->set_mailtype("html");
-            $this->email->from($email,$apellido." ".$nombre);
-            $this->email->to('contacto@dwchile.cl');
-            $this->email->subject('[CONTACTO]');
-            
-            $msj = $this->CorreoPersonalizado(1,'DWChile',$nombre." ".$apellido,$mensaje);
+            $this->RemueveCaptcha($expiracion);
+            $existe = $this->ExisteCaptcha($ip,$expiracion,$captcha);
+            if($existe){
+                echo "hola.";
+                die();
+                $this->ConfigMail();
+                $this->email->set_mailtype("html");
+                $this->email->from($email,$apellido." ".$nombre);
+                $this->email->to('contacto@dwchile.cl');
+                $this->email->subject('[CONTACTO]');
 
-            $this->email->message($msj);
+                $msj = $this->CorreoPersonalizado(1,'DWChile',$nombre." ".$apellido,$mensaje);
 
-            if($this->email->send()){
-                $this->email->clear();
-                
-                $reenvio = $this->Reenvio($email,$nombre." ".$apellido,$mensaje);
-                if($reenvio){
-                    
-                    $men =  "Su mensaje ha sido enviado exitosamente. Pronto nos contactaremos con usted. ¡GRACIAS POR VISITARNOS!";
-                    $data['clase']="alert-info";
-                    $data['mensaje'] = $men;
-                    $data['id'] = "mensaje";
-                    
+                $this->email->message($msj);
+
+                if($this->email->send()){
+                    $this->email->clear();
+
+                    $reenvio = $this->Reenvio($email,$nombre." ".$apellido,$mensaje);
+                    if($reenvio){
+
+                        $men =  "Su mensaje ha sido enviado exitosamente. Pronto nos contactaremos con usted. ¡GRACIAS POR VISITARNOS!";
+                        $data['clase']="alert-info";
+                        $data['mensaje'] = $men;
+                        $data['id'] = "mensaje";
+
+                    }else{
+
+                        $men =  "No ha sido posible enviar el mensaje. Puede enviarnos un correo a contacto@dwchile.cl";
+                        $data['clase']="alert-danger";
+                        $data['mensaje'] = $men;
+                        $data['id'] = "mensaje1";
+
+                    }
                 }else{
-                    
+                    $this->email->clear();
                     $men =  "No ha sido posible enviar el mensaje. Puede enviarnos un correo a contacto@dwchile.cl";
                     $data['clase']="alert-danger";
                     $data['mensaje'] = $men;
                     $data['id'] = "mensaje1";
-                    
                 }
             }else{
-                $this->email->clear();
+                
                 $men =  "No ha sido posible enviar el mensaje. Puede enviarnos un correo a contacto@dwchile.cl";
                 $data['clase']="alert-danger";
                 $data['mensaje'] = $men;
                 $data['id'] = "mensaje1";
+                
             }
             $this->index($data);
         }
