@@ -43,8 +43,6 @@ class Email extends MY_Controller{
             $this->RemueveCaptcha($expiracion);
             $existe = $this->ExisteCaptcha($ip,$expiracion,$captcha);
             if($existe){
-                echo "hola.";
-                die();
                 $this->ConfigMail();
                 $this->email->set_mailtype("html");
                 $this->email->from($email,$apellido." ".$nombre);
